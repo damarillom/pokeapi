@@ -8,6 +8,7 @@
                         v-model="retailler"
                         :items="retaillers"
                         @update:modelValue="getAllData"
+                        class="select"
                     ></v-select>
                     <v-expansion-panels v-model="panel" multiple>
                         <chart-panel

@@ -11,7 +11,7 @@
                         :readonly="true" 
                         :key="key"
                         hide-details="auto"
-                        class="input"
+                        :class="'input' + key"
                         :data-test="'text-field-' + key"
                     ></v-text-field>
                 </v-col>
